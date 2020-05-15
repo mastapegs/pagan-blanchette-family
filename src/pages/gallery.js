@@ -12,6 +12,7 @@ export const query = graphql`
             fluid {
               ...GatsbyImageSharpFluid
             }
+            id
           }
         }
       }
@@ -25,7 +26,9 @@ const Gallery = ({ data }) => {
       <h1>Gallery</h1>
       <ul>
         {data.allFile.edges.map(edge => (
-          <li className={styles.listItem}>
+          <li
+            key={edge.node.childImageSharp.id}
+            className={styles.listItem}>
             <Img fluid={edge.node.childImageSharp.fluid} />
           </li>
         ))}
