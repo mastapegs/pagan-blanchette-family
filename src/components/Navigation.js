@@ -1,19 +1,24 @@
 import React from 'react'
 import { Link } from 'gatsby'
+import styles from './navigation.module.css'
 
 const Navigation = () => {
   const links = [
     {
       href: '/',
       linkText: 'Home'
+    },
+    {
+      href: '/gallery',
+      linkText: 'Gallery'
     }
   ]
   return (
     <>
-      <ul>
+      <ul className={styles.nav}>
         {links.map(({ href, linkText }) => (
-          <li key={`href-${href}`}>
-            <Link to={href}>
+          <li className={styles.navItems} key={`href-${href}`}>
+            <Link className={styles.navLinks} to={href}>
               {linkText}
             </Link>
           </li>

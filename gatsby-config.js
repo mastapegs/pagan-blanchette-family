@@ -6,5 +6,15 @@
 
 module.exports = {
   /* Your site config here */
-  plugins: [],
+  plugins: [
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `gallery`,
+        path: `${__dirname}/src/images/gallery`
+      }
+    },
+    'gatsby-plugin-sharp',
+    'gatsby-transformer-sharp'
+  ]
 }

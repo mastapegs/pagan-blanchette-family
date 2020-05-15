@@ -1,0 +1,15 @@
+.nav {
+  margin: 0;
+  padding: 10px;
+  background: hsl(0, 0%, 20%);
+  display: flex;
+}
+
+.navItems {
+  margin: 10px;
+}
+
+.navLinks {
+  color: hsl(0, 0%, 90%);
+  text-decoration: none;
+}

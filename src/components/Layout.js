@@ -1,11 +1,15 @@
 import React from 'react'
-import Navigation from './Navigation'
+import Navigation from './navigation'
+import Wrapper from './wrapper'
+import './layout.css'
 
 const Layout = ({ children }) => {
   return (
     <>
       <Navigation />
-      {children}
+      <Wrapper>
+        {children}
+      </Wrapper>
     </>
   )
 }
