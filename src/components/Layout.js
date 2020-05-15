@@ -1,6 +1,6 @@
 import React from 'react'
-import Navigation from './navigation'
-import Wrapper from './wrapper'
+import Navigation from './Navigation'
+import Wrapper from './Wrapper'
 import './layout.css'
 
 const Layout = ({ children }) => {
