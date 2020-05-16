@@ -14,6 +14,7 @@ export const query = graphql`
             }
             id
           }
+          publicURL
         }
       }
     }
@@ -29,7 +30,9 @@ const Gallery = ({ data }) => {
           <li
             key={edge.node.childImageSharp.id}
             className={styles.listItem}>
-            <Img fluid={edge.node.childImageSharp.fluid} />
+            <a href={edge.node.publicURL}>
+              <Img fluid={edge.node.childImageSharp.fluid} />
+            </a>
           </li>
         ))}
       </ul>
