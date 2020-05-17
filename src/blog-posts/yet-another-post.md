@@ -1,6 +1,6 @@
 ---
-title: 'Test Blog Post'
-slug: 'test-blog-post'
+title: 'Yet another post'
+slug: 'yet-another-test-blog-post'
 date: '2020-05-17'
 ---
 
