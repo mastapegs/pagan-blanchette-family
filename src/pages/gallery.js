@@ -30,7 +30,10 @@ const Gallery = ({ data }) => {
           <li
             key={edge.node.childImageSharp.id}
             className={styles.listItem}>
-            <a href={edge.node.publicURL} target='_blank'>
+            <a
+              href={edge.node.publicURL}
+              target='_blank'
+              rel="noopener noreferrer">
               <Img fluid={edge.node.childImageSharp.fluid} />
             </a>
           </li>
