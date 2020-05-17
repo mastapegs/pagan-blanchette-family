@@ -27,6 +27,7 @@ const Blog = ({ data }) => {
       <p>
         Several posts showing our family's quarentine shenanigans.
       </p>
+      <hr className={styles.hr} />
       <h2>Posts</h2>
       <ul>
         {data.allMarkdownRemark.edges.map(edge => (

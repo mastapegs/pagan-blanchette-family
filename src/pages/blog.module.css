@@ -6,3 +6,7 @@
 .post:last-child {
   border-bottom: none;
 }
+
+.hr {
+  border: 2px solid black;
+}
