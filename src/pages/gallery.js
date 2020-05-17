@@ -25,7 +25,7 @@ const Gallery = ({ data }) => {
   return (
     <>
       <h1>Gallery</h1>
-      <ul>
+      <ul className={styles.list}>
         {data.allFile.edges.map(edge => (
           <li
             key={edge.node.childImageSharp.id}

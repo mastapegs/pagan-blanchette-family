@@ -1,5 +1,5 @@
 import React from 'react'
-import { graphql } from 'gatsby'
+import { graphql, Link } from 'gatsby'
 import styles from './blog.module.css'
 
 export const query = graphql`
@@ -29,12 +29,14 @@ const Blog = ({ data }) => {
       </p>
       <hr className={styles.hr} />
       <h2>Posts</h2>
-      <ul>
+      <section>
         {data.allMarkdownRemark.edges.map(edge => (
-          <li key={edge.node.id} className={styles.post}>
+          <article key={edge.node.id} className={styles.post}>
             <p>
               <span>
-                <strong>{edge.node.frontmatter.title}</strong>
+                <Link to={edge.node.frontmatter.slug}>
+                  <strong>{edge.node.frontmatter.title}</strong>
+                </Link>
               </span>
               {' - '}
               <span>
@@ -44,9 +46,9 @@ const Blog = ({ data }) => {
             <p>
               {edge.node.excerpt}
             </p>
-          </li>
+          </article>
         ))}
-      </ul>
+      </section>
     </>
   )
 }
