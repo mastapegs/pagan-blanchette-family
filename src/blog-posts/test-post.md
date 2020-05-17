@@ -12,9 +12,9 @@ Things to do:
 
 1. Download these plugins
 
-  - **gatsby-source-filesystem**
-  - **gatsby-transformer-remark**
+    - **gatsby-source-filesystem**
+    - **gatsby-transformer-remark**
 
 1. Configure them in the file **gatsby-config.js**
 
- - Note that **gatsby-config.js** needs an object, not a string, in the plugin array.
+    - Note that **gatsby-config.js** needs an object, not a string, in the plugin array.
