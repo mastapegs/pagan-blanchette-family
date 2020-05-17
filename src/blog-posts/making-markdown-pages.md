@@ -4,8 +4,7 @@ slug: 'markdown-blog-steps'
 date: '2020-05-17'
 ---
 
-# How to add markdown pages from markdown graphql data
+This post will hopefully shed some light into the mystery of creating blog posts in gatsby.
 
-- Create Blog Post Template
-
-- Create pages with **gatsby-node.js**
+- Create a blog post template
+- Use **gatsby-node.js** to create pages using that template

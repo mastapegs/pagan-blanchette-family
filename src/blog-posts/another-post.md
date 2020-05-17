@@ -4,6 +4,6 @@ slug: 'another-post'
 date: '2020-05-12'
 ---
 
-# This is another test post
+This is another post.
 
 Hopefully, gatsby will pick these up quick
