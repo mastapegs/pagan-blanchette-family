@@ -34,7 +34,7 @@ const Blog = ({ data }) => {
           <article key={edge.node.id} className={styles.post}>
             <p>
               <span>
-                <Link to={edge.node.frontmatter.slug}>
+                <Link to={`blog/${edge.node.frontmatter.slug}`}>
                   <strong>{edge.node.frontmatter.title}</strong>
                 </Link>
               </span>
