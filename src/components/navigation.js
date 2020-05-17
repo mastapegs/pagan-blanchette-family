@@ -15,6 +15,10 @@ const Navigation = () => {
     {
       href: '/gallery',
       linkText: 'Gallery'
+    },
+    {
+      href: '/contact',
+      linkText: 'Contact'
     }
   ]
   return (
