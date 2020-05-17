@@ -9,6 +9,10 @@ const Navigation = () => {
       linkText: 'Home'
     },
     {
+      href: '/blog',
+      linkText: 'Blog'
+    },
+    {
       href: '/gallery',
       linkText: 'Gallery'
     }
