@@ -1,9 +1,9 @@
 ---
 title: 'Another Post'
 slug: 'another-post'
-date: '2020-05-17'
+date: '2020-05-12'
 ---
 
-## This is another test post
+# This is another test post
 
 Hopefully, gatsby will pick these up quick

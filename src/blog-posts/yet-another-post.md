@@ -4,7 +4,7 @@ slug: 'yet-another-test-blog-post'
 date: '2020-05-17'
 ---
 
-## 🧪 This is a test blog post
+# 🧪 This is a test blog post
 
 This blog post will test this site's markdown.
 

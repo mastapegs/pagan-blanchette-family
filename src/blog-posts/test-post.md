@@ -1,10 +1,10 @@
 ---
 title: 'Test Blog Post'
 slug: 'test-blog-post'
-date: '2020-05-17'
+date: '2020-05-10'
 ---
 
-## 🧪 This is a test blog post
+# 🧪 This is a test blog post
 
 This blog post will test this site's markdown.
 
