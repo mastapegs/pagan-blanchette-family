@@ -3,6 +3,7 @@
   padding: 10px;
   background: hsl(0, 0%, 20%);
   display: flex;
+  list-style: none;
 }
 
 .navItems {
